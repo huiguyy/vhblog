@@ -2,11 +2,7 @@
 title: "用AI杠杆撬动你自己的资源（下）"
 id: 用ai杠杆撬动你自己的资源-下
 date: 2026-04-30
-categories: 随笔
-tags:
-  - AI
-  - 创业
-  - 亚马逊
+categories: AI工具
 ---
 
 ![图片](/images/c6e4d780a26677ef.jpeg)
