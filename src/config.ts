@@ -109,9 +109,9 @@ export default {
   // 文章内赞赏码
   Reward: {
     // 支付宝收款码
-    AliPay: '/assets/images/alipay.webp',
+    AliPay: '/assets/images/alipay.jpg',
     // 微信收款码
-    WeChat: '/assets/images/wechat.webp'
+    WeChat: '/assets/images/wechat.png'
   },
   // 访问网页 自动推送到搜索引擎
   SeoPush: {
