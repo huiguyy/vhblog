@@ -2,10 +2,10 @@
 title: "谷歌I/O开幕前夜，Gemini憋了个大的"
 id: 谷歌i-o开幕前夜-gemini憋了个大的
 date: 2026-05-19
-categories: 随笔
+categories: AI热点
 tags:
-  - 随笔
-cover: "/images/7b7d13adff93e859.png"
+  - AI
+cover: "/images/2ad006634be4afff.png"
 ---
 
 # 谷歌I/O开幕前夜，Gemini憋了个大的
