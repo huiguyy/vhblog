@@ -211,31 +211,52 @@ img[data-vh-lz-src] {
 	}
 }
 
-// 首次加载效果
+// 首次加载效果（仅在没有 swup 时生效，swup 启用后由下方规则接管）
 .vh-animation.vh-animation-init {
 	opacity: 0;
 	animation: 300ms vh-init-show;
 	animation-fill-mode: forwards;
-	transition: opacity 0.18s ease-in-out, transform 0.18s ease-in-out;
 }
 
 // swup 动画效果
-html.swup-enabled,
-html.is-changing {
+// swup-enabled: 清除首次加载动画，为 swup 导航准备 transition
+html.swup-enabled {
 	.vh-animation {
 		&.vh-animation-init {
 			transform: translateY(0);
 			opacity: 1;
 			animation: none;
+			transition: opacity 0.18s ease-in-out, transform 0.18s ease-in-out;
 		}
 	}
 }
 
-html.is-animating {
+// is-changing + is-leaving: 页面离开动画
+html.is-changing.is-leaving {
 	.vh-animation {
 		&.vh-animation-init {
 			transform: translateY(0.88rem);
 			opacity: 0;
+		}
+	}
+}
+
+// is-rendering: 新内容进入动画
+html.is-rendering {
+	.vh-animation {
+		&.vh-animation-init {
+			transform: translateY(0.88rem);
+			opacity: 0;
+		}
+	}
+}
+
+// is-rendering 且非 is-animating 时恢复可见（动画完成）
+html.is-rendering:not(.is-animating) {
+	.vh-animation {
+		&.vh-animation-init {
+			transform: translateY(0);
+			opacity: 1;
 		}
 	}
 }

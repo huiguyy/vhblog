@@ -36,6 +36,20 @@
         }
       }
 
+      &>.vh-article-card-link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        cursor: pointer;
+        font-size: 0;
+        color: transparent;
+        text-decoration: none;
+        background: transparent;
+      }
+
       &.active {
         &::before {
           content: "置顶";
@@ -106,6 +120,8 @@
           justify-content: space-between;
           width: 100%;
           height: max-content;
+          position: relative;
+          z-index: 2;
 
           &>.vh-article-cat {
             flex-shrink: 0;
@@ -177,6 +193,8 @@
           width: 100%;
           height: max-content;
           overflow: hidden;
+          position: relative;
+          z-index: 2;
 
           &>a {
             font-size: 1.06rem;
@@ -210,6 +228,8 @@
         width: 100%;
         height: max-content;
         overflow: hidden;
+        position: relative;
+        z-index: 2;
 
         &>a {
           box-sizing: border-box;
