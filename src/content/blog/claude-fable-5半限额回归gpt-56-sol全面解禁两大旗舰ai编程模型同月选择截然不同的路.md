@@ -1,7 +1,7 @@
 ---
 title: "Claude Fable 5半限额回归，GPT-5.6 Sol全面解禁：两大旗舰AI编程模型，同月选择截然不同的路"
 id: claude-fable-5半限额回归gpt-56-sol全面解禁两大旗舰ai编程模型同月选择截然不同的路
-date: 2026-07-19T10:31:18.328Z
+date: 2026-07-19T10:47:09.457Z
 categories: AI每日热点解析
 tags:
   - AI
@@ -10,10 +10,11 @@ tags:
   - OpenAI
   - Anthropic
   - 编程
+cover: "https://raphael.18.do/images/e452f1c1-137c-4fea-ac21-1a011dc6704e.jpg"
 ---
 
 # Claude Fable 5半限额回归，GPT-5.6 Sol全面解禁：两大旗舰AI编程模型，同月选择截然不同的路
-![cover_封面](/images/82759009-66dd-45cd-bae4-4e89deee2ca8.png)
+![cover_封面](/images/d2ee8b3f-2309-4b26-9ffb-7ed4daeba4b1.png)
 
 
 * * *
