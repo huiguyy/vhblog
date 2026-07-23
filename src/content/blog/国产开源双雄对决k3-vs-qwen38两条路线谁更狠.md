@@ -1,7 +1,7 @@
 ---
 title: "国产开源双雄对决：K3 vs Qwen3.8，两条路线谁更狠"
 id: 国产开源双雄对决k3-vs-qwen38两条路线谁更狠
-date: 2026-07-23T08:12:31.378Z
+date: 2026-07-23T08:26:50.790Z
 categories: AI每日热点解析
 tags:
   - AI
